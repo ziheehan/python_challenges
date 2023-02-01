@@ -1,0 +1,6 @@
+country = ("Korea","USA", "Spain","France","Germany")
+print(country)
+choice = input("표시된 국가 이름들 중 하나를 입력하세요 :")
+print(choice, "는 ", country.index(choice),"번 째 인덱스의 나라입니다.")
+num = int(input("0에서 4사이의 숫자를 입력하세요 :"))
+print(country[num])
